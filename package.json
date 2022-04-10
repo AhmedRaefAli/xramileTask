@@ -1,0 +1,32 @@
+{
+  "name": "feed-backend",
+  "version": "1.0.0",
+  "description": "restfull Api",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 5000",
+    "start": "nodemon app.js"
+  },
+  "repository": "",
+  "author": "A.Raef",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.4",
+    "express": "^4.16.3",
+    "express-validator": "^5.3.0",
+    "helmet": "^5.0.2",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.3.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.0",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^9.2.1",
+    "nodemon": "^1.18.4",
+    "sinon": "^13.0.1"
+  }
+}

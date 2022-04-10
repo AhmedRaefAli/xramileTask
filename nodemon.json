@@ -1,0 +1,7 @@
+{
+    "env":{
+        "MONGO_USER":"Araraef22",
+        "MONGO_PASSWORD":"j2vJPMeCJzd2ii8",
+        "MONGO_DATABASENAME":"facebook"
+    }
+}
